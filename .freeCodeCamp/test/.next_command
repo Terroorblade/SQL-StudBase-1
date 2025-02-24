@@ -107,3 +107,13 @@ __vsc_prompt_cmd_original
 ./insert_data.sh
 echo insert_data.sh
 ./insert_data.sh
+git push -u origin main
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
