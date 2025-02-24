@@ -88,3 +88,4 @@ __vsc_prompt_cmd_original
 cat courses.csv
 run insert_data.sh
 ./insert_data.sh
+./insert_data.sh
