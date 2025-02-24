@@ -117,3 +117,6 @@ git push -u origin main
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+git push -u origin main
+git push -u origin main
+./insert_data.sh
