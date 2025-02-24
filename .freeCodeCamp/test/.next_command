@@ -86,3 +86,5 @@ chmod +x insert_data.shh
 chmod +x insert_data.sh
 __vsc_prompt_cmd_original
 cat courses.csv
+run insert_data.sh
+./insert_data.sh
