@@ -1,1 +1,2 @@
 echo hello SQL
+psql --username=freecodecamp --dbname=postgres
