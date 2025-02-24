@@ -89,3 +89,5 @@ cat courses.csv
 run insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+declare -p ./insert_data.sh
+declare -p IFS
