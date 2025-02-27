@@ -483,3 +483,4 @@ git push -u origin main
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+./insert_data.sh
