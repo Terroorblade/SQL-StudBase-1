@@ -590,3 +590,4 @@ git push origin main
 ./insert_data.sh
 git push origin main
 ./insert_data.sh
+ls --color=auto
