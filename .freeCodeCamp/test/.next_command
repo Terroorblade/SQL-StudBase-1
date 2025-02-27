@@ -597,3 +597,4 @@ ls --color=auto
 ls --color=auto
 pg_dump
 pg_dump --help
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
