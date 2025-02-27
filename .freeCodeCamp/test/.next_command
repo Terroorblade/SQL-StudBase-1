@@ -573,3 +573,4 @@ ssh-add ~/.ssh/id_ed25519
 ssh -T git@github.com
 git push origin main
 ./insert_data.sh
+git push origin main
