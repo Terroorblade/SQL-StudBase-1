@@ -587,3 +587,4 @@ cp students.csv students_test.csv
 git push origin main
 ./insert_data.sh
 ./insert_data.sh
+./insert_data.sh
