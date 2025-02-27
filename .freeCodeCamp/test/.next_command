@@ -591,3 +591,4 @@ git push origin main
 git push origin main
 ./insert_data.sh
 ls --color=auto
+rm students_test.csv
