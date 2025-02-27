@@ -23,16 +23,19 @@ do
     fi
     # get new major_id
     MAJOR_ID=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
-  fi
+    fi
   # get course_id
+   COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
 
   # if not found
 
   # insert course
+  # COURSE_ID=$($PSQL "INSERT INTO courses(course) VALUES('$COURSE')")
 
   # get new course_id
 
   # insert into majors_courses
+
 fi
 
 done
