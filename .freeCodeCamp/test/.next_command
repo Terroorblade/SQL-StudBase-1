@@ -574,3 +574,8 @@ ssh -T git@github.com
 git push origin main
 ./insert_data.sh
 git push origin main
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh

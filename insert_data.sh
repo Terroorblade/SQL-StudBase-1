@@ -24,7 +24,7 @@ do
     fi
     # get new major_id
 
-    # MAJOR_ID=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
+  MAJOR_ID=$($PSQL "SELECT major_id FROM majors WHERE major='$MAJOR'")
   fi
   # get course_id
   COURSE_ID=$($PSQL "SELECT course_id FROM courses WHERE course='$COURSE'")
@@ -44,10 +44,10 @@ if [[ $INSERT_COURSE_RESULT == "INSERT 0 1" ]]
 
 fi
   # insert into majors_courses
-  INSERT_MAJORS_COURSES_RESULT=$($PSQL "INSERT INTO majors_courses(major_id,course_id) VALUES('$MAJOR_ID','$COURSE_ID')")
-  if [[ $INSERT_MAJORS_COURSES_RESULT == "INSERT 0 1" ]]
+  INSERT_MAJORS_COURSES_RESULT=$($PSQL "INSERT INTO majors_courses(major_id,course_id) VALUES($MAJOR_ID,$COURSE_ID)")
+    if [[ $INSERT_MAJORS_COURSES_RESULT == "INSERT 0 1" ]]
     then
-    echo Inserted into majors_courses, $MAJOR : $COURSE
+      echo "Inserted into majors_courses, $MAJOR : $COURSE"
     fi
 fi
 
