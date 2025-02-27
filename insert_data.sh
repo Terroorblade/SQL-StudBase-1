@@ -22,7 +22,7 @@ do
     echo Inserted into majors, $MAJOR
     fi
     # get new major_id
-
+    MAJOR_ID=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
   fi
   # get course_id
 
